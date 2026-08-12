@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Для Моего Котенка ❤️</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif}
+  body{
+    display:flex;align-items:center;justify-content:center;
+    min-height:100vh;background:#fff;color:#111;
+    overflow:hidden;
+  }
+  .wrap{text-align:center;padding:32px}
+  .heart{
+    font-size:72px;line-height:1;
+    animation:pulse 1.5s ease-in-out infinite;
+    margin-bottom:28px;
+  }
+  h1{
+    margin:0;
+    font-size:clamp(34px,8vw,72px);
+    font-weight:700;
+    letter-spacing:-2px;
+  }
+  p{margin:18px 0 0;color:#777;font-size:16px}
+  @keyframes pulse{
+    0%,100%{transform:scale(1)}
+    50%{transform:scale(1.12)}
+  }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="heart">❤️</div>
+    <h1>Люблю тебя, Уля,<br>мой котёнок</h1>
+    <p>Всегда. ❤️</p>
+  </main>
+</body>
+</html>
